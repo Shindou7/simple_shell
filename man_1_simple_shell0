@@ -1,0 +1,71 @@
+.TH SIMPLE-SHELL "26 07 2023" "0.7" ALX Simple Shell"
+
+.SH NAME
+Simple Shell - A simple UNIX.
+
+.SH SYNOPSIS
+Simple_shell [command] [file]
+ 
+.SH DESCRIPTION
+.Nm
+is a command interpreter (shell) for the UNIX-like operating system. It allows users to execute various commands and programs by typing them into the shell's command line. The shell runs the commands in separate child processes and displays the output to the user.
+
+.SH USAGE / COMPILATION
+To compile the simple shell, use the following command:
+.B
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+
+.SH COMMANDS
+The simple shell supports basic command execution and some built-in commands such as:
+.IP "Command 1" 4
+Description of command 1.
+.IP "Command 2" 4
+Description of command 2.
+.IP "Command 3" 4
+Description of command 3.
+
+.SH OPTIONS
+The simple shell supports the following options:
+.IP "-option1" 4
+Description of option 1.
+.IP "-option2" 4
+Description of option 2.
+.IP "-option3" 4
+Description of option 3.
+
+.SH RETURN VALUE
+The simple shell returns the exit status of the executed command, unless specified by an exit code.
+
+.SH EXAMPLES
+Example usages of the simple shell:
+.IP "Example 1" 4
+$ ./hsh
+$ ls
+file1.txt file2.txt
+$ echo "Hello, World!"
+Hello, World!
+$ exit
+.IP "Example 2" 4
+$ ./hsh script.sh
+Executing script.sh...
+Output of the script.
+
+.SH AUTHORS
+The simple shell was developed by shindou  and  Sehlaoui as part of simple_shell
+
+.SH BUGS
+Report any bugs or issues to [@shindou00 or @skylimit96].
+
+.SH SEE ALSO
+Some related commands or tools that may be useful:
+.IP "Command/Tool 1" 4
+Description of command/tool 1.
+.IP "Command/Tool 2" 4
+Description of command/tool 2.
+.IP "Command/Tool 3" 4
+Description of command/tool 3.
+
+.SH AUTHORS
+.B shindou Hassnaa  - Amine Sehlaoui.
+.br
+ \ @shindou00\          \ @skylimit96
